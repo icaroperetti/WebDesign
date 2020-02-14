@@ -1,0 +1,173 @@
+html { font-size: calc(1em + 1vw); }
+
+/*Fundo e direcionar para direita o label*/
+header nav{
+	background: #f7fcff;
+	padding: 2vh 10vw 2vh 10vw;    /*Espaçamento*/
+	display: flex;
+	justify-content: space-between;
+}
+
+header nav ul {
+	display: flex;
+}
+
+
+header nav a {
+	color: #82868f; /*Cor fonte*/
+	text-decoration: none;  /*Remover sublinhado */
+	font-family: Arial;
+}
+
+header nav h1 {
+	font-size: 1.2em; /* Tamanho da fonte */
+}
+
+header nav ul li {
+	font-size: 0.8em;
+	margin: 0 10px 0 10px;
+	padding: 10px 8px 8px 8px;
+}
+
+header nav ul li.signin{
+	background: #0ec0de;
+	border-radius: 60px;
+}
+
+header nav ul li.signin a{
+	color: white;
+}
+
+/*--===Banner====--*/
+
+section.banner{
+	padding: 45vh 15vw 13vh 15vw;
+	text-align: center;
+	background-image: url(../img/foto_banner_escura.jpg);
+	color: white;
+	font-family: Arial;
+}
+
+section.banner h2 {
+	font-size: 1.4em;
+}
+
+section.banner p{
+	margin: 4vw 0 0 0;
+	font-size: 0.8em;
+}
+
+section.about{
+	padding: 5vh 20vw 8vh 20vw;
+	background-color: white;
+	text-align: center;
+	font-family: Arial;
+	color: black;
+}
+
+section.about h2{
+	margin: 2vh 0 0 0;
+	font-size: 1.4em;
+	font-family: Arial;
+	color:#00fff6;
+}
+
+section.about p{
+	margin: 4vw 0 0 0;
+	font-family: Arial;
+	font-size: 0.7em;
+}
+
+/*--===TEAM====--*/
+
+section.team {
+	padding: 5vh 20vw 8vh 20vw;
+	background-color:#0ec0de;
+	color:white;
+	text-align: center;
+}
+
+section.team p{
+	font-size: 0.5em;
+	text-align: center;
+}
+
+
+section.team ul {
+	justify-content: center;
+	display: flex;
+	margin: 5vh 0 0 0;
+}
+
+
+section.team ul li img {
+	margin: 5vh 0 0 0;
+	border-radius: 100%;
+}
+
+section.team li {
+	margin: 0vh 3vw 0 0;
+}
+
+section.team h2{
+	font-size: 1.4em;
+}
+
+p.botao{
+	padding: 10vh 0 0 0;
+	margin:10vh 0 0 0;
+
+}
+.botao a{
+	font-size: 1.2em;
+	color: white;
+	text-decoration: none;
+	border: 1px solid white;
+	border-radius: 5vw;
+	padding: 1vw 1vh 1vw  1vh;
+}
+
+section.mapa img{
+	width: 100%;
+}
+
+/*======FOOTER=====*/
+footer {
+	background:rgba(0,0,0,0.6);
+	padding: 2vh 8vw 2vh 8vw;
+}
+
+footer nav div {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	padding: 0 0 10px 0;
+}
+footer nav  ul{
+	display: flex;
+}
+footer nav div ul li{
+	margin: 5px 5px 5px 5px;
+}
+footer nav ul li a{
+	text-decoration: none;
+	color:white;
+	font-family: Arial;
+	font-size: 0.5em;
+}
+
+footer nav ul.termos {
+	justify-content:  flex-end;
+	margin: 10px 0 0 0;
+}
+
+footer nav ul.termos li{
+	border-left:1px solid rgba(0.6,255,255,0.6);
+	padding: 0 1em 0 1em;
+	height: 3vh;
+	line-height: 3vh;
+}
+
+footer nav ul.termos li: first-child {
+	border:none;
+}

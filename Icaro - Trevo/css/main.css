@@ -1,0 +1,280 @@
+/* === PREDEFINIÇÕES === */
+html { font-size: calc(1em + 1vw); }
+
+
+/* === BREAKPOINTS === */
+@media all and (max-width: 1199px) { ... } 
+@media all and (max-width: 480px) { ... }
+@font-face{
+    font-family: 'Rage';
+    src: url(../fonts/RageItalic.ttf);
+}
+@font-face{
+	font-family: 'Mazzard';
+	src:url(../fonts/MazzardH.otf);
+}
+
+
+
+
+/* === HEADER === */
+header {
+	background-image: url(../img/imagem-banner.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/imagem-banner.jpg);
+	background-size: cover;
+	padding: 4vh 0 20vh 0;
+}
+
+header h1{
+	text-align: center;
+	font-size: 2em;
+	color:white;
+	font-family: 'Rage' ;
+	text-align: center;
+	padding: 3vh 0 0 0;
+}
+
+header nav{
+	padding: 5vh 2vw 2vh 37vw; 
+}
+header nav ul{
+	display: flex;
+}
+
+header nav ul li{
+	font-size: 0.5em;
+	margin: 0 11px 0 11px;
+	padding: 11px 10px 10px 11px;
+}
+
+
+header nav ul  li a{
+	color: white;
+	text-decoration: none;
+	font-family: Arial;
+}
+
+header nav p{
+	padding: 48vh 5vw 0 5vw;
+	font-family: Arial;
+	font-size: 0.5em;
+
+	
+}
+
+/* === 1 - BOTÃO === */
+header nav p a {
+	font-size: 0.9em;
+	color: white;
+	text-decoration: none;
+	border: 1px solid #4FC3AE;
+	border-radius: 5vw;
+	padding: 1.5vh 2vw 1.5vh  2vw;
+	background-color: #4FC3AE;
+}
+
+/* === 1 - ICONES === */
+
+section.info {
+	padding: 5vh 15vw 8vh 15vw;
+	background-color: white;
+	color: black;
+	display: flex;
+	justify-content: center;
+}
+
+section.info{
+	padding: 5vh 20vw 8vh 20vw;
+  	background:white;
+}
+
+section.info ul{
+	display: flex;
+	justify-content: center;
+}
+
+section.info p{
+  font-size: 0.5em;
+  text-align: center;
+  color:#A7A7A7;
+  padding: 2vh 0 0 0;
+}
+
+section.info ul li h2 {
+ border-bottom:  1.5px solid #E9E9E9;
+  text-decoration: none;
+  font-size: 0.7em;
+  padding: 0 0 2vh 0;
+}
+
+section.info li  {
+    margin: 2vw;
+    text-align: center;
+}
+
+
+/* === 1 - Imagens === */
+section.imagens {
+	padding: 2vh 15vw 8vh 9vw;
+	background-color: white;
+	background-color: #EEEEF0;
+}
+
+
+section.imagens ul {
+	display: flex;
+	padding: 3vh 5vw 3vh 15vw;
+}
+
+section.imagens ul li a{
+	padding: 1vh 2vw 2vh 0vw;
+}
+
+section.imagens ul li{
+	margin:0 2vw 0 2vw;
+}
+
+section.imagens ul li h2{
+	font-size: 0.7em;
+	padding: 0vh 0vw 4vh 0vw;
+	font-family:'Fjalla One', sans-serif;
+	color:background-color: #EEEEF0;
+	border-bottom: 1.5px solid #E9E9E9;
+	margin-right: 2vw;
+}
+
+section.imagens ul li p {
+    font-size: 0.5em;
+    color: #8b8f91;
+    line-height: 20px;
+    padding: 6vh 4vw 0 0vw;
+}
+
+section.imagens ul li a{
+	display: flex;
+}
+
+section.imagens ul li a img{
+	width: 100%;
+}
+
+
+/* === 2 - BOTÃO (IMAGENS) === */
+section.imagens p.botao {
+	display: flex;
+	justify-content: space-between;
+	padding: 5vh 0vw 0 0vw;
+	font-family: Arial;
+}
+
+section.imagens p.botao a {
+	font-size: 0.9em;
+	color: white;
+	text-decoration: none;
+	border: 1px solid #4FC3AE;
+	border-radius: 5vw;
+	padding: 1vh 1vw 1vh  1vw;
+	background-color: #4FC3AE;
+}
+
+
+/* === NOVOS ARES === */
+
+
+section.novosares figure img {
+	background-color: white;
+	padding: 10vh 4vw 5vh 27vw;
+	float: left;
+}
+
+
+section.novosares h2 {
+	padding: 10vh 1vw 5vh 0vw;
+	font-size: 0.8em;
+	font-family:'Fjalla One', sans-serif;
+	text-align: left;
+	display: flex;
+	border-bottom: 1.5px solid #E9E9E9;
+	margin-right: 29vw;
+}
+
+
+section.novosares p {
+	padding: 3vh 30vw 2vh 45vw;
+	font-size: 0.5em;
+	line-height: 20px;
+	color:#8b8f91;
+}
+
+
+/* ===  BOTÃO (NOVOS ARES) === */
+section.novosares p a {
+	font-size: 0.9em;
+	color: white;
+	text-decoration: none;
+	border: 1px solid #4FC3AE;
+	border-radius: 5vw;
+	padding: 1vh 1vw 1vh  1vw;
+	background-color: #4FC3AE;
+}
+
+section.novosares p.botaoares  {
+	display: flex;
+	padding: 2vh 4vw 10vh 1vw;
+	font-family: Arial;
+}
+
+/* === 3 ESTRELA=== */
+section.verde {
+	 background-color: #4FC3AE;
+	 padding: 8vh 0 2vh 0;
+}
+
+
+
+section.verde figure {
+	display: flex;
+	justify-content: center;
+}
+
+section.verde figure p{
+	padding: 0 0 0 1vw;
+	color:white;
+	font-family: Arial;
+	font-size: 0.8em;
+}
+
+section.verde ul {
+	display: flex;
+	padding:15vh 0 5vh 0;
+	justify-content: center;
+}
+
+section.verde ul li{
+	padding: 0 5vw 0 0;
+	font-size: 1.1em;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 3vh 10vw 4vh 15vw;
+}
+
+footer ul {
+	display: flex;
+}
+
+footer ul li{
+	padding: 0 2vw 0 0;
+}
+
+footer p{
+	font-size: 0.6em;
+}
+
+footer p span  {
+	color:grey;
+}

@@ -1,0 +1,307 @@
+html {
+    font-size: calc(1em + 1vw);
+}
+
+
+/*HEADER*/
+
+body {
+    font-family: Arial;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/back-topo.jpg);
+    padding: 3vh 10vw 10vh 10vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    /*colocar para direita o menu*/
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Formatar titulo*/
+
+header h1 {
+    font-size: 1em;
+    font-weight: bold;
+    /*Negrito*/
+    border-bottom: 2px solid #797977;
+    padding-bottom: 3vh:
+}
+
+header h1 a span {
+    color: orange;
+}
+
+
+/*Formatar lista*/
+
+header ul {
+    display: flex;
+    font-size: 0.4em;
+}
+
+header ul li {
+    margin: 3vh 3vw 0 1vw;
+    text-transform: uppercase;
+}
+
+header h2 {
+    font-size: 4em;
+    font-weight: bold;
+    color: white;
+    margin-top: 25vh;
+    margin-bottom: 9vh;
+}
+
+header p {
+    font-size: 0.7em;
+    color: white;
+    margin-bottom: 9vh;
+    margin-right: 15vw;
+    margin-left: 15vw;
+    line-height: 20px;
+}
+
+header p a {
+    background-color: #FBA419;
+    border-radius: 40px;
+    padding: 2vh 2vw 2vh 2vw;
+}
+
+.botton {
+    background-color: #FBA419;
+    font-size: 0.5em;
+    border-radius: 40px;
+    padding: 2vh 2vw 2vh 2vw;
+}
+
+
+/*SERVICES*/
+
+section.services {
+    display: flex;
+}
+
+section.services p a {
+    text-decoration: none;
+    color: white;
+}
+
+section.services div {
+    width: 30vw;
+    text-align: right;
+    padding: 5vw;
+}
+
+section.services div p span {
+    font-weight: bold;
+}
+
+section.services div p {
+    padding: 0 0 10vh 0;
+}
+
+section.services ul {
+    width: 70vw;
+    background: url(../img/back-servico.jpg);
+    display: flex;
+    padding: 4vw;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+section.services ul li {
+    background: #2F2F2F;
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 4vw;
+}
+
+section.services ul li p {
+    color: #A0A0A0;
+    font-size: 0.6em;
+    line-height: 20px;
+}
+
+section.services h2 span {
+    color: orange;
+}
+
+section.services h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0 0 4vh 0;
+}
+
+section.services ul li h3 {
+    color: orange;
+    font-size: 0.8em;
+    padding: 3vh 0 2vh 0;
+}
+
+
+/*PRANCHETA*/
+
+.prancheta {
+    display: flex;
+    background: url(../img/pranchetas.jpg) no-repeat center left;
+    background-color: #2F2F2F;
+    background-size: 50vw auto;
+    padding: 4vw;
+    padding-left: 55vw;
+    padding-top: 8vh;
+}
+
+.prancheta h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 2vh;
+}
+
+.prancheta h2 span {
+    color: orange;
+}
+
+.prancheta ul li {
+    display: flex;
+}
+
+.prancheta ul li img {
+    width: 5vw;
+    height: 5vw;
+    display: block;
+    padding-right: 3vw;
+}
+
+section.prancheta p {
+    color: #848484;
+    font-size: 0.5em;
+    padding: 1vh 8vw 5vh 0;
+    line-height: 20px;
+}
+
+section.prancheta ul {
+    padding: 2vh 8vw 0 0;
+}
+
+section.prancheta h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+/*MODELO*/
+
+.girl{
+    display: flex;
+}
+
+.girl .primeiro h2 span{
+    color: orange;
+}
+.girl .primeiro h2{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 6vw 5vh 3vw 0;
+}
+.girl .primeiro{
+    background-color: #2F2F2F;
+    color: white;
+    padding: 0 10vh 0 10vh;
+}
+.girl .primeiro div{
+    display: flex;
+}
+.girl .primeiro div li.texto{
+    font-size: 0.5em;
+    color: gray; 
+    line-height: 25px;
+}
+.girl .primeiro div li .negrito{
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 1.5vw 0 4.6vw 0;
+    color: white;
+}
+
+.girl .segundo{
+    width: 200px;
+    height: 100px;
+    position: relative;
+}
+.girl .terceiro{
+    text-align: center;
+    padding: 6vw 15vh 0 35vh;
+}
+.girl .terceiro h3{
+    font-size: 0.8em;
+    line-height: 35px; 
+   padding: 1vh 5vw 1vh 15vw;
+   text-align: center;
+}
+.girl .terceiro h3 span{
+    color: rgba(0,0,0,0.7);
+}
+.girl .terceiro img{
+    padding: 0 0 3vw 0;
+}
+.girl .terceiro p{
+    padding: 2vw 0 0 10vw;
+    font-size: 0.8em; 
+}
+.girl .terceiro img{
+    padding-left: 7vw;
+}
+
+/*=======GET IN TOUCH========*/
+.get{
+    background-image: url(../img/back-get-in-touch.png);
+}
+.get h2{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 5vw 0 5vw 0;
+    font-size: 1.5em; 
+}
+.get h2 span{
+    color: orange;
+}
+.get ul{
+    display: flex;
+    padding: 0 45vh 6vw 45vh;
+}
+.get ul li {
+    align-items: center;
+    padding-left: 3.5vw;
+}
+
+
+
+/*=======FOOTER========*/
+footer{
+    background-color: #2F2F2F;
+    text-align: center;
+    padding: 2vw 0 2vw 0;
+}
+footer p{
+    color: white;
+    padding: 0.5vw 0 0.5vw 0;
+    font-size: 0.7em; 
+}
+
+

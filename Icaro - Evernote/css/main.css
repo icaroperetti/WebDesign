@@ -1,0 +1,289 @@
+/* === PREDEFINIÇÕES === */
+html { font-size: calc(1em + 1vw); }
+
+
+/* === BREAKPOINTS === */
+@media all and (max-width: 1199px) { ... } 
+@media all and (max-width: 480px) { ... }
+
+
+/* HEADER */
+header{
+	background: linear-gradient(rgba(86, 86, 86, 0.3), rgba(86, 86, 86, 0.3)), url(../img/evernote-back-topo.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 15vw 0 15vw 0;
+
+}
+
+header h1{
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom:3vh;
+}
+
+header p a {
+	font-size: 0.5em;
+	color: white;
+	text-decoration: none;
+	border: 1px solid #54D054;
+	border-radius: 5vw;
+	padding: 1.5vh 2vw 1.5vh  2vw;
+	background-color: #54D054;
+}
+
+header p {
+	text-align: center;
+}
+
+/* ICONES */
+section.icones ul {
+	display: flex;
+    padding: 8vh 15vw 15vh 15vw;
+    align-items: center;
+    text-align: center;
+}
+
+section.icones ul li h3{
+	font-size: 0.9em;
+    padding: 2vh 0 2vh 0;
+}
+
+section.icones p {
+	font-size: 0.7em;
+    padding: 3vh 4vw 0 2vw;  
+}
+
+section.icones p.botao{
+	padding: 5vh 0 0 0; 
+}
+
+section.icones p.botao a{
+	font-size: 0.7em;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	border: 1px solid #54D054;
+	border-radius: 5vw;
+	padding: 1vh 1vw 1vh  1vw;
+	background-color: #54D054;
+}
+
+/* IMAGENS */
+
+section.imagens{
+	background: #54D054;
+}
+
+section.imagens h2 {
+	font-size: 1em;
+	padding-top: 10vh;
+	text-align: center;
+	color: #30912D;
+	border-bottom: 2px solid #30912D;
+	padding-bottom: 3vh;
+	margin-left: 35vw;
+	margin-right: 35vw;
+}
+
+
+section.imagens p {
+	text-align: center;
+	padding-top: 3vh;
+	color: #30912D;
+	font-size: 0.8em;
+}
+
+section.imagens ul {
+  display: flex;
+  padding: 4vw 20vw 5vh 23vw;
+  flex-wrap: wrap;
+}
+
+section.imagens  ul li {
+	padding: 3vh 3vw 0 0;
+}
+
+section.imagens p.botao {
+	padding-bottom: 10vh;
+	text-align: center;
+}
+
+
+section.imagens p.botao a{
+	font-size: 0.8em;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	border: 1px solid #095909;
+	border-radius: 5vw;
+	padding: 1vh 1vw 1vh  1vw;
+	background-color: #087008;
+}
+
+/* TESTEMUNHO */
+
+.penultima {
+	background: white;
+	padding-top: 3vh;
+	padding-bottom: 10vh;
+}
+.penultima h2 {
+	text-align: center;
+	padding-top: 3vh;
+	color: gray;
+	border-bottom: 2px solid gray;
+	padding-bottom: 2vh;
+	margin-left: 44vw;
+	margin-right: 44vw;
+}
+
+.penultima p.subtitulo{
+	text-align: center;
+	padding-top: 5vh;
+	padding: 2vh 0vw 4vh 0vw;
+	font-size: 0.7em;
+	color: #CECECE;
+}
+
+.penultima p.testemunial{
+	text-align: center;
+	padding-top: 10vh;
+	font-size: 0.6em;
+	padding: 2vh 32vw 4vh 30vw;
+}
+
+.penultima p.usuario{
+	font-size: 0.7em;
+	padding-bottom: 1vh;
+	text-align: center;
+}
+
+.penultima p.ceo{
+	text-align: center;
+	font-size: 0.5em;
+	font-weight: bold;
+	color: #CECECE;
+}
+
+/* FOOTER */
+
+footer{
+	background: black;
+}
+footer ul {
+	display: flex;
+	padding-bottom: 2vh;
+	padding-top: 2vh;
+	justify-content: center;
+}
+
+footer ul li{
+	padding: 0 1vw 0 1vw;
+}
+
+footer ul li a {
+	font-size: 0.5em;
+	color:white;
+	text-decoration: none;
+	border-left: 1px solid rgba(255,255,255,0.6);
+	padding: 0 0em 0 1em;
+  	height: 3vh;
+  	font-family: Arial;
+}
+
+footer ul li a.semborda{
+	border:none;
+}
+
+/* RESPONSIVIDADE */
+@media all and (max-width: 480px) { 
+	 header{
+		flex-wrap: wrap;
+		background-size: cover;
+		}
+
+	header h1{
+		text-align: center;
+		font-size: 1em;
+	}
+
+	section.icones{
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	section.icones ul{
+		flex-wrap: wrap;
+		display: block;
+	}
+	
+	section.icones ul li img{
+		padding-top: 8vh;
+		padding-bottom: 0vh;
+	}
+	section.icones p.botao a {
+		font-size: 1em;
+
+	}
+	section.imagens {
+		flex-wrap: wrap;
+		display: block;
+		width: 100%;
+	}
+
+	section.imagens h2{
+		width: 60vw;
+		font-size: 1em;
+        text-align: center;
+        margin-left: 16vw;
+        margin-right: 0vw;
+	}
+
+	section.imagens ul {
+		display: block;
+		flex-wrap: wrap;
+	}
+
+	section.imagens p{
+		width: 60vw;
+		text-align: center;
+		margin-left: 16vw;
+		
+	}
+
+	section.imagens p.botao a {
+		text-align: center;
+		font-size: 1em;
+	}
+
+	section.penultima{
+		display: block;
+		flex-wrap: wrap;
+	}
+
+	.penultima p.testemunial{
+		padding: 2vh 15vw 4vh 15vw;
+	}
+
+	section.penultima h2{
+		margin-left: 34vw;
+		margin-right: 34vw;
+		border-bottom: 2px solid gray;
+		padding-bottom: 2vh;
+	}
+
+	footer{
+		display: block;
+		width: 100%;
+}
+
+	footer ul{
+		padding: 2vh 0 2vh 0;
+	}
+
+	footer ul li a{
+		font-size: 0.7em;
+	}
+}

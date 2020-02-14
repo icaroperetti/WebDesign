@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Juntos e Shallow Now</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form method="get" action="#">
+    	<fieldset>
+    		<legend>Personal Information</legend>
+    		<label for="fs-name"><strong>First name:</strong></label>
+    		<input type="text" name="fs-name" id="fs-name">
+    		<br>
+    		<label for="ls-name"><strong>Last name:</strong></label>
+    		<input type="text" name="ls-name" id="ls-name">
+    		<br>
+    		<label for="ad-name">Adress:</label>
+    		<input type="text" name="ad-name" id="ad-name">
+    		<br>
+    		<label for="ct-name">City:</label>
+    		<input type="text" name="ct-name" id="ct-name">
+    		<br>
+    		<label for="st-name">State:</label>
+    		<select id="st-name" name="st-name">
+    			<option selected>Select a state/province</option>
+    			<option>Santa Catarina</option>
+    			<option>Parana</option>
+    			<option>Florida</option>
+    		</select>
+    		<br>
+    		<label for="code">Zip/Postal Code:</label>
+    		<input type="text" name="code" id="code" pattern="[0-9]{5}-[0-9]{3}" placeholder="xxxxx-xxx" title="Preencha no formato xxxxx-xxx">
+    		<br>
+    		<label for="cy-name">Country:</label>
+    		<select id="cy-name" name="cy-name">
+          <option selected>Select Country</option>
+    			<option>US - United States</option>
+    			<option>BR - Brazil</option>
+    			<option>CAN - Canada</option>
+    		</select>
+    	</fieldset>
+
+    	<fieldset>
+    		<legend>Contact Information</legend>
+        <fieldset>
+          <legend>How to contact you</legend>
+          <label>
+            <input type="radio" name="contact" >Phone
+          </label>
+
+          <label>
+            <input type="radio" name="contact">Email
+          </label>
+          </fieldset>
+          <br>
+          <label for="email"><strong>Email:</strong></label>
+          <input type="text" name="email">
+          <p>We will never sell or disclose you email adress to anyone. Once your account is setup, you may add additional email adresses</p>
+        
+          <label for="reemail"><strong>Re-enter Email:</strong></label>
+          <input type="text" name="reemail">
+          <p>Must match the email address you just entered above</p>
+
+          <label for="phonenmbr">Phone:</label>
+          <input type="text" name="phonenmbr">
+          <br>
+          <label for="fax">Fax:</label>
+          <input type="text" name="fax">
+    	</fieldset>
+        <fieldset>
+            <legend>Message Subject </legend>
+            <label>
+                <input type="radio" name="message">Hello, my brother/sister is driving me crazy!
+                <br>
+            </label>
+
+            <label>
+                 <input type="radio" name="message" >How can I tell my father/mother, it's time for them to retire?
+                 <br>
+            </label>
+            <label>
+                 <input type="radio" name="message" >I'm exasperated with an awkward partner!
+                 <br>
+            </label>
+
+            <label>
+                 <input type="radio" name="message" >How do I stop my family members from interfering?
+                 <br>
+            </label>
+
+            <label>
+                 <input type="radio" name="message" >Other:
+                 <br>
+            </label>
+
+            <label>
+                <input type="text" name="message" >
+                <br>
+            </label>
+            </fieldset>
+
+            <label><strong>Your Message:</strong></label>
+            <textarea></textarea>
+            <br>
+            <label for="image">Image:</label>
+            <input type="file" name="image">
+            <br>
+
+            <label><strong>What is your current availability</strong></label>
+            <select size="3">
+                <option>Part time</option>
+                <option>Full-time(days)</option>
+                <option>Full-time(swing)</option>
+                <option></option>
+            </select>
+
+            <fieldset>
+                <legend>Availability:</legend>
+                <input type="checkbox" name="disponibilidade">Part-time
+                <br>
+                <input type="checkbox" name="disponibilidade">Full-time (Days)
+                <br>
+                <input type="checkbox" name="disponibilidade">Full-time (Swing)
+                <br>
+                <input type="checkbox" name="disponibilidade">Full-time (Graveyard)
+                <br>
+                <input type="checkbox" name="disponibilidade">Weekends Only
+            </fieldset>
+        </fieldset>
+        <input type="submit" name="enviar" value="ENVIAR">
+    </form>
+</body>
+</html>
